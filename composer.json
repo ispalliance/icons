@@ -1,0 +1,39 @@
+{
+  "name": "ispa/icons",
+  "description": "Icons",
+  "keywords": [
+    "icons"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ispalliance/icons",
+  "require": {
+    "php": ">=7.1"
+  },
+  "require-dev": {
+    "latte/latte": "~2.4.4 || ~2.5.0",
+    "ninjify/nunjuck": "^0.2.1",
+    "ninjify/qa": "^0.9.0",
+    "phpstan/phpstan-deprecation-rules": "^0.11.0",
+    "phpstan/phpstan-nette": "^0.11.0",
+    "phpstan/phpstan-shim": "^0.11.2",
+    "phpstan/phpstan-strict-rules": "^0.11.0"
+  },
+  "conflict": {
+    "latte/latte": "<2.4.4"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "Ispa\\Icons\\": "src"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1-dev"
+    }
+  }
+}
